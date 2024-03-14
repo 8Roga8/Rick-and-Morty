@@ -1,0 +1,40 @@
+.location {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 0.8em;
+    background-color: #173031;
+    padding: 1em 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+.location_name {
+    text-align: center;
+    color: #1FE87B;
+    font-size: 2.5rem;
+    margin-bottom: 0.6em;
+}
+
+.location_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.location_item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    align-items: center;
+    text-align: center;    
+}
+
+.location_label {
+    font-weight: 600;
+}
+
+.location_value {
+    font-weight: 350;
+    color: #808B96;
+}

@@ -1,0 +1,23 @@
+.app {
+    background-color: #054246;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 3em;
+}
+
+.app_residents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+}
+
+.app_title {
+    width: 100%;
+    aspect-ratio: 3;
+    background-position: top center;
+    background-image: url(../public/66133.jpg);
+    background-size: cover;
+    margin-bottom: 1em;    
+}

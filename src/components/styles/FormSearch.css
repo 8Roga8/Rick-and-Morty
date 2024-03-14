@@ -1,0 +1,30 @@
+.form {
+    display: block;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.form_input {
+    display: block;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em 0 0 0.5em;
+    border: none;
+    font-size: 1.1em;
+    height: 3em;
+}
+
+.form_btn {
+    display: block;
+    border: none;
+    width: 7em;
+    height: 3em;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: #1FE87B;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 650;
+    &:hover {
+        filter: brightness(1.3);
+    }
+}

@@ -1,0 +1,15 @@
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+.has_error {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5em;
+background-color: #1FE87B;
+border-radius: 5px;
+padding: 3em;
+}
